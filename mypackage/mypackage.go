@@ -2,8 +2,8 @@ package mypackage
 
 import "fmt"
 
-func Hello() {
-	fmt.Println("Hello")
+func HelloFun() {
+	fmt.Println("Hello Fulva")
 }
 
 func Hii() {
