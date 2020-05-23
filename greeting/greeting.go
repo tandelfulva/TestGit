@@ -2,6 +2,6 @@ package greeting
 
 import "fmt"
 
-func MyFunction(){
-  fmt.Println("This is my Function")
+func MyFunction() {
+	fmt.Println("Hello")
 }
