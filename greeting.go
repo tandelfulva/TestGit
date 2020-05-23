@@ -1,4 +1,4 @@
-package TestGit
+package greeting
 
 import "fmt"
 
