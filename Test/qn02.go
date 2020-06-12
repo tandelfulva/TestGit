@@ -4,17 +4,9 @@ import (
 	"fmt"
 )
 
-type myErr struct {
-	str string
-}
-
-func (err myErr) Error() string {
-	return err.str
-}
-
 func divide(val1 float64, val2 float64) (float64, error) {
 	if val2 == 0 {
-		return 0, myErr{str: "can't divide by 0"}
+		return 0, fmt.Errorf("can't divide by 0")
 	}
 	return val1 / val2, nil
 }
